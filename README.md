@@ -1,4 +1,4 @@
-[![Test](https://github.com/ollydev/setup-lazarus/actions/workflows/test.yml/badge.svg)](https://github.com/ollydev/setup-lazarus/actions/workflows/test.yml)
+[![Test](https://github.com/humbertodias/lazarus/actions/workflows/test.yml/badge.svg)](https://github.com/humbertodias/lazarus/actions/workflows/test.yml)
 
 Simple action which installs Lazarus and FPC from sourceforge releases.
 
