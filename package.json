@@ -1,0 +1,33 @@
+{
+  "name": "lazarus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build source/main.js -o dist/index && ncc build source/post.js -o dist/post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humbertodias/lazarus.git"
+  },
+  "author": "humbertodias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humbertodias/lazarus/issues"
+  },
+  "homepage": "https://github.com/humbertodias/lazarus#readme",
+  "dependencies": {
+    "@actions/cache": "^4.0.3",
+    "@actions/exec": "^1.1.1",
+    "@actions/tool-cache": "^2.0.2",
+    "base-64": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "process": "^0.11.10"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
+  }
+}
